@@ -14,7 +14,8 @@
     <application>
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,12 +28,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".AmazonActivity" />
-        <activity android:name=".GrubHubActivity"></activity>
+        <activity android:name=".AmazonActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".GrubHubActivity"
+            android:theme="@style/Theme.AppCompat.Light"></activity>
     </application>
 
 </manifest>
