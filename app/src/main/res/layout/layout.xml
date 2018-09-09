@@ -24,8 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:textSize="20sp"
         android:dropDownWidth="match_parent"
-        android:entries="@array/roulette_array" />
+        android:entries="@array/roulette_array"
+        />
 
     <Button
         android:id="@+id/ledstrip-trigger"
@@ -34,6 +36,6 @@
         android:layout_weight="1"
         android:onClick="ledstripTrigger"
         android:text="Suprise Me ;)"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
 </LinearLayout>
